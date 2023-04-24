@@ -1,0 +1,12 @@
+{
+  "name": "030223-display",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "http-server ./public"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

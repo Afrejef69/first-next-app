@@ -1,0 +1,67 @@
+body{
+    margin: 40px 32px;
+    padding: 0;
+    background-color: white;
+}
+
+body .box :first-child {
+    margin-bottom: 40px;
+}
+
+.box {
+    border-radius: 16px;
+    height: 128px;
+    display: block;
+    box-sizing: border-box;
+    padding: 36px;
+    font-size: 48px;
+    line-height: 56px;
+    margin: 0;
+}
+
+.box span {
+    display: block;
+    text-align: center;
+}
+
+.primary {
+    background-color: #5840B0;
+    color:white;
+}
+
+.quaternary {
+    background-color: #EEECF7;
+    color: #35266A;
+    border: 2px dashed #35266A;
+    margin: 40px 0;
+}
+
+.quaternary, .quinary, .secondary, .sextenary, .tertiary {
+    width: 40%;
+}
+
+.quinary {
+    background-color: #FAEBF1;
+    color: #C93474;
+    border: 2px dashed #8D2451;
+    margin: 0 auto 40px auto;
+}
+
+.secondary {
+    background-color: #C93474;
+    color:white;
+    margin: 40px 0;
+}
+
+.sextenary {
+    background-color: #EBF0FC;
+    color: #3A6DDE;
+    border: 2px dashed #234185;
+    margin: 0 0 0 auto;
+}
+
+.tertiary {
+    background-color: #3A6DDE;
+    color:white;
+    margin: 40px 0;
+}

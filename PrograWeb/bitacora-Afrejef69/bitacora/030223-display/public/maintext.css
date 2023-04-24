@@ -1,0 +1,21 @@
+body{
+    margin: 40px 32px;
+    padding: 0;
+    background-color: white;
+}
+
+body > span{
+    font-size: 48px;
+    line-height: 56px;
+    display: inline;
+}
+
+.box {
+    border-radius: 16px;
+    height: 128px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 36px;
+    font-size: 48px;
+    line-height: 56px;
+}
